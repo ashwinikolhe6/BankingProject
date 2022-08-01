@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BankingProject]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Bankingtest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.bankingProject.testClass.TC_001_loginTest">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="setReport"/>
+          <include name="endReport"/>
+          <include name="loginTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.bankingProject.testClass.TC_001_loginTest -->
+    </classes>
+  </test> <!-- Bankingtest(failed) -->
+</suite> <!-- Failed suite [BankingProject] -->

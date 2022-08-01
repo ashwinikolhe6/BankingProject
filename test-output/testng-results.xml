@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-01T17:20:06 IST" name="BankingProject" finished-at="2022-08-01T17:21:05 IST" duration-ms="58831">
+    <groups>
+    </groups>
+    <test started-at="2022-08-01T17:20:06 IST" name="Bankingtest" finished-at="2022-08-01T17:21:05 IST" duration-ms="58831">
+      <class name="com.bankingProject.testClass.TC_001_loginTest">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.bankingProject.testClass.TC_001_loginTest@351d00c0]" started-at="2022-08-01T17:20:06 IST" name="setReport" finished-at="2022-08-01T17:20:06 IST" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.bankingProject.testClass.TC_001_loginTest@351d00c0]" started-at="2022-08-01T17:20:06 IST" name="setup" finished-at="2022-08-01T17:20:10 IST" duration-ms="3137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.bankingProject.testClass.TC_001_loginTest@351d00c0]" started-at="2022-08-01T17:20:10 IST" name="loginTest" finished-at="2022-08-01T17:21:05 IST" duration-ms="55363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.bankingProject.testClass.TC_001_loginTest@351d00c0]" started-at="2022-08-01T17:21:05 IST" name="closebrowser" finished-at="2022-08-01T17:21:05 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.bankingProject.testClass.TC_001_loginTest@351d00c0]" started-at="2022-08-01T17:21:05 IST" name="endReport" finished-at="2022-08-01T17:21:06 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.bankingProject.testClass.TC_001_loginTest -->
+    </test> <!-- Bankingtest -->
+  </suite> <!-- BankingProject -->
+</testng-results>
